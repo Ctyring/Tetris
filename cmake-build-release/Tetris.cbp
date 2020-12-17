@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Tetris"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/study/Tetris/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/study/Tetris/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tetris">
+				<Option output="D:/study/Tetris/cmake-build-release/Tetris.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/study/Tetris/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/study/new/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/study/new/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/study/new/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 Tetris"/>
+					<CompileFile command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tetris/fast">
+				<Option output="D:/study/Tetris/cmake-build-release/Tetris.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/study/Tetris/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/study/new/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/study/new/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/study/new/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 Tetris/fast"/>
+					<CompileFile command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/study/Tetris/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/study/new/MinGW/bin/mingw32-make.exe -f &quot;D:/study/Tetris/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/study/Tetris/common/base.c">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/common/base.h">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/control/gamecontrol.c">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/control/gamecontrol.h">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/control/setgame.c">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/control/setgame.h">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/data/gamedata.c">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/data/gamedata.h">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/main.c">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/view/Keyhander.c">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/view/Keyhander.h">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/view/controlpanel.c">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/view/controlpanel.h">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/view/ganmepanel.c">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/view/ganmepanel.h">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/view/panel.c">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/view/panel.h">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/view/rankpanel.c">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/view/rankpanel.h">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/view/settingpanel.c">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/view/settingpanel.h">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/view/trailerpanel.c">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/view/trailerpanel.h">
+			<Option target="Tetris"/>
+		</Unit>
+		<Unit filename="D:/study/Tetris/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
